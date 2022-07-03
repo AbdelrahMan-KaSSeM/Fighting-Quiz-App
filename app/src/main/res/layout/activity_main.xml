@@ -8,25 +8,30 @@
     android:layout_gravity="center"
     android:background="#505050"
     tools:context=".Other.MainActivity">
+
     <TextView
-        android:layout_above="@+id/wrap_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold|italic"
-        android:textSize="32sp"
-        android:textColor="#838282"
+        android:layout_above="@+id/wrap_login"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
         android:text="@string/fightingquiz"
         android:textAllCaps="true"
-        android:fontFamily="sans-serif-light"
-        android:layout_centerHorizontal="true"/>
+        android:textColor="#838282"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
     <ImageView
-        android:layout_above="@id/wrap_login"
-        android:layout_margin="20dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/kassem"
-        android:contentDescription="@string/logo_for_app" />
+        android:layout_above="@id/wrap_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo_for_app"
+        android:src="@drawable/kassem" />
     <RelativeLayout
         android:layout_centerInParent="true"
         android:id="@+id/wrap_login"
