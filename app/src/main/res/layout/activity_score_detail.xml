@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Other.ScoreDetail"
+    android:background="#000000">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/title"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/text_name"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/text_score"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scoreList"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

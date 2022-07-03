@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Other.Start"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/Image_quiz"
+        android:src="@drawable/kassem" />
+    <androidx.cardview.widget.CardView
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/btnPlay"
+            android:layout_margin="8dp"
+            android:background="#01579B"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:text="@string/Button_play"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">capstoneProjectKassem</string>
+    <string name="Again">try again</string>
+    <string name="scoree">y our score  =  0</string>
+    <string name="passed_0_30">p a s s e d 0/30</string>
+    <string name="passed">p  a  s s e d  =  0/20</string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_password">Password</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_signup">SignUp</string>
+    <string name="kassemtrivia">fighting quiz</string>
+    <string name="KassemTrivia">fighting quiz</string>
+    <string name="logo_for_app">LOGO</string>
+    <string name="text_name">Name</string>
+    <string name="text_score">S c o r e</string>
+    <string name="Button_play">play</string>
+    <string name="text_category_name">Category Name</string>
+    <string name="text_clicks">clicks</string>
+    <string name="Image_quiz">quiz</string>
+    <string name="hint_user_name_sign_up">user_name</string>
+    <string name="hint_password_sign_up">Password</string>
+    <string name="hint_email_sign_up">email</string>
+    <string name="titel_menuquestions">MenuQuestions</string>
+    <string name="title_menustar">MenuStar</string>
+    <string name="txt_answer_a">Answer A</string>
+    <string name="txt_answer_b">Answer B</string>
+    <string name="txt_todo">TODO</string>
+    <string name="txt_answer_c">Answer C</string>
+    <string name="txt_score_0">0</string>
+    <string name="text_total_question_1_30">1/30</string>
+    <string name="fightingquiz">fighting quiz</string>
+    <string name="setting">Setting</string>
+    <string name="answer_d">Answer D</string>
+    <string name="imageforcategory">ImageForCategory</string>
+    <string name="todo">TODO</string>
+</resources>

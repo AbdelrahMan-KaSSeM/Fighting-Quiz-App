@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "243902297177",
+    "firebase_url": "https://capstoneprojectkassem.firebaseio.com",
+    "project_id": "capstoneprojectkassem",
+    "storage_bucket": "capstoneprojectkassem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243902297177:android:0e2dea0b78be407eef6d48",
+        "android_client_info": {
+          "package_name": "com.example.capstoneprojectkassem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243902297177-no8q5hla55m1inu6uvpst7dg6vcaht6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capstoneprojectkassem",
+            "certificate_hash": "477f73f63501c72301e0c2a1b1ecb0fa3c821c5e"
+          }
+        },
+        {
+          "client_id": "243902297177-uc7e7otvis82hok4aslga9eic3r3fiet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO4fSlRFTi7XxStRi1bGqA0BBLJwysA7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243902297177-uc7e7otvis82hok4aslga9eic3r3fiet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

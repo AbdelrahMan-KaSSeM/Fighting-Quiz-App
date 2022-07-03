@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.capstoneprojectkassem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.capstoneprojectkassem.Other.ScoreDetail"></activity>
+        <activity android:name="com.example.capstoneprojectkassem.Other.Done" />
+        <activity android:name="com.example.capstoneprojectkassem.Other.Play" />
+        <activity android:name="com.example.capstoneprojectkassem.Other.Start" />
+        <activity android:name="com.example.capstoneprojectkassem.Other.Home" />
+        <activity android:name="com.example.capstoneprojectkassem.Other.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.example.capstoneprojectkassem.BroadcastReceiver.AlarmReceiver"/>
+        <receiver android:name="com.example.capstoneprojectkassem.AppWidgetProviderKassem">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info"/>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6844397703553766~7593373236"/>
+        <service
+            android:name="com.example.capstoneprojectkassem.BroadcastReceiver.MyFirebaseMessagingService"
+            android:stopWithTask="false">
+            <intent-filter>
+
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest>
